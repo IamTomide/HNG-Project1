@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p data-testid="slackDisplayName">SlackName: Paulina</p>
+            <p data-testid="slackEmail" class="email">paulinaebunoluwa@gmail.com</p>
+            <p data-testid="currentDay">Current Day: <span id="Day"></span> </p>
+            <p data-testid="currentTimeUTC">Current Time: <span id="time"></span> </p>
+        </header>
+
+        <section class="main-div">
+            <div class="images">
+                <figure>
+                        <img src="images/slackdisplaypicture.jpg" alt="slackProfilePicture" data-testid="slackProfilePicture">
+                        <figcaption>Slack Profile Picture</figcaption>
+                </figure>
+            </div>
+
+            <div class="goals">
+                <p>I am an Intermediate web developer.</p>
+                <p>My goals in the the tech world for the next two years are:</p>
+                <ul>
+                    <li>I aim to improve my skills by exploring Javascipt frameworks to enhance my ability to build better user interfaces.</li><br>
+                    <li>I also plan to expand my knowledge to the backend side of web development.</li><br>
+                    <li>I hope to work on bigger projects and take on jobs that will help me earn a living.</li><br>
+                    <li>I intend to contrinute to pen-source projects to gain more experience and give back to the commmunity</li><br>
+                    <li>I want to obtain relevant certifications to validate my skills and improve my job.</li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <div class="links">
+                <a href="https://hng.tech/learn" data-testid="hngLink">HNG Link</a>
+                <a href="https://keyword.dog/" data-testid="KeywordLink">SEO Optimization tool</a>
+                <a href="https://scrapeanyweb.site/" data-testid="scrapeanywebLink">Scrape websites</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

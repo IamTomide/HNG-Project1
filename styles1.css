@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 2rem;
+    background-color: #0294CE;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    font-weight: bold;
+    flex-flow: column wrap;
+    text-align: center;
+    padding: 3rem;
+    margin: auto;
+    background-color: #011E29;
+    color: white;
+    
+}
+.email {
+    font-size: 1rem;
+}
+
+
+.main-div{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.images{
+    margin: 5rem auto;
+}
+
+figcaption {
+    font-size: 1rem;
+}
+.goals {
+    width: 90%;
+    margin: 2rem auto 5rem;
+    background-color: #03435cd4;
+    padding:4rem;
+    border-radius: 50px;
+    flex-wrap: wrap;
+}
+
+.goals ul{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #011E29;
+    text-align: center;
+}
+.links a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 2rem 4rem;
+    color: white;
+}
+
+.links a:hover{
+    background-color: white;
+    color: black;
+}
